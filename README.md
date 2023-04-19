@@ -1,4 +1,5 @@
 # End-to-end Prediction from Composite Geometry to Mechanical Field
+![Overall workflow](https://github.com/lamm-mit/FieldPredictorGAN/blob/main/flow chart.png)
 **Basic requirements**
 - Python3
 - Tensorflow=2.0.0
