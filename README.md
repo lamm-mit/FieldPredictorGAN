@@ -20,6 +20,7 @@ pip install -r requirement.txt
 - Specify the directory path which contains data set in config.py. e.g. PATH="./MISES/"
 - Split your data set into training set and test set under dataset directory:
 ```
+
 cd MISES
 mkdir train ### training set dir
 mkdir test ### test set dir
