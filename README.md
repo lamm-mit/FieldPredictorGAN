@@ -1,4 +1,4 @@
-# comp2field
+# End-to-end Prediction from Composite Geometry to Mechanical Field
 **Basic requirements**
 - Python3
 - Tensorflow=2.0.0
