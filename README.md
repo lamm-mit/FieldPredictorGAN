@@ -10,7 +10,7 @@
 pip install -r requirement.txt
 ```
 
-**Image requirements**
+**Dataset requirements**
 - For both training and testing, geometry image (256, 256) and field image (256, 256) need to be stitched into one image with size (256, 512).
 - Make sure the solid black background is in good proportion in order to match pixes. 
 - Make sure they are named in order. e.g. 1.png, 2.png,...
