@@ -10,14 +10,15 @@
 pip install -r requirement.txt
 ```
 
-**Dataset requirements**
+**Image dataset requirements**
 - For both training and testing, geometry image (256, 256) and field image (256, 256) need to be stitched into one image with size (256, 512).
 - Make sure the solid black background is in good proportion in order to match pixes. 
 - Make sure they are named in order. e.g. 1.png, 2.png,...
 
 **Before training or testing**
+- The hyperparameter are indicated in config.py.
 - Specify the directory path which contains data set in config.py. e.g. PATH="./MISES/"
-- split your data set into training set and test set under dataset directory:
+- Split your data set into training set and test set under dataset directory:
 ```
 cd MISES
 mkdir train ### training set dir
