@@ -4,8 +4,7 @@
 - Tensorflow=2.0.0
 - CUDA 10.0
 - Tensorboard=2.6.0
-- Other requirements can be found at requirement.txt
-- Installation:
+- Other requirements can be found at requirement.txt and installation can be done via:
 ```
 pip install -r requirement.txt
 ```
