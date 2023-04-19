@@ -1,5 +1,9 @@
-# End-to-end Prediction from Composite Geometry to Mechanical Field
+# End-to-end Prediction from Composite Geometry to Mechanical Fields
+
+Materials-by-design is a paradigm to develop previously unknown high-performance materials. However, finding materials with superior properties is often computationally or experimentally intractable because of the astronomical number of combinations in design space. Here we report an AI-based approach, implemented in a game theory–based conditional generative adversarial neural network (cGAN), to bridge the gap between a material’s microstructure—the design space—and physical performance. Our end-to-end deep learning model predicts physical fields like stress or strain directly from the material microstructure geometry, and reaches an astonishing accuracy not only for predicted field data but also for derivative material property predictions. Furthermore, the proposed approach offers extensibility by predicting complex materials behavior regardless of component shapes, boundary conditions, and geometrical hierarchy, providing perspectives of performing physical modeling and simulations. The method vastly improves the efficiency of evaluating physical properties of hierarchical materials directly from the geometry of its structural makeup.
+
 - Reference: Yang, Z., Yu, C. H., & Buehler, M. J. (2021). Deep learning model to predict complex stress and strain fields in hierarchical composites. Science Advances, 7(15), eabd7416.
+
 ![Overall workflow](https://github.com/lamm-mit/FieldPredictorGAN/blob/main/flow_chart.png)
 
 **Basic requirements**
@@ -19,7 +23,7 @@ pip install -r requirement.txt
 - Make sure they are named in order. e.g. 1.png, 2.png,...
 
 **Before training or testing**
-- The hyperparameter are indicated in "config.py".
+- Hyperparameters are indicated in "config.py".
 - Specify the directory path which contains data set in config.py. e.g. PATH="./MISES/"
 - Split your data set into training set and test set under dataset directory:
 ```
