@@ -3,7 +3,12 @@
 - Python3
 - Tensorflow=2.0.0
 - CUDA 10.0
+- Tensorboard=2.6.0
 - Other requirements can be found at requirement.txt
+- Installation:
+```
+pip install -r requirement.txt
+```
 
 **Image requirements**
 - For both training and testing, geometry image (256, 256) and field image (256, 256) should be stitched into one image with size (256, 512).
