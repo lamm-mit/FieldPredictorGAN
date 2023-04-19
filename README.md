@@ -1,6 +1,7 @@
 # End-to-end Prediction from Composite Geometry to Mechanical Field
 - Reference: Yang, Z., Yu, C. H., & Buehler, M. J. (2021). Deep learning model to predict complex stress and strain fields in hierarchical composites. Science Advances, 7(15), eabd7416.
 ![Overall workflow](https://github.com/lamm-mit/FieldPredictorGAN/blob/main/flow_chart.png)
+
 **Basic requirements**
 - Python3
 - Tensorflow=2.0.0
