@@ -1,4 +1,4 @@
-# End-to-end Prediction from Hierarchical Composite Geometry to Various Mechanical Fields
+# End-to-end Prediction of Various Mechanical Fields from Hierarchical Composite Geometry using Adverserial Neural Networks
 
 Yang, Z., Yu, C. H., & Buehler, M. J. (2021). Deep learning model to predict complex stress and strain fields in hierarchical composites. Science Advances, 7(15), eabd7416, 2021, https://www.science.org/doi/10.1126/sciadv.abd7416
 
