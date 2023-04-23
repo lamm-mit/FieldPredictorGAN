@@ -114,5 +114,4 @@ python test.py
     pages   = {104506},
     url     = {https://doi.org/10.1016/j.jmps.2021.104506}
 }
-
 ```
