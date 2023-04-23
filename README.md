@@ -104,4 +104,15 @@ python test.py
     pages   = {eabd7416},
     url     = {https://www.science.org/doi/10.1126/sciadv.abd7416}
 }
+
+@article{YangYuBuehlerJMPS_2022,
+    title   = {End-to-end deep learning method to predict complete strain and stress tensors for complex hierarchical composite microstructures},
+    author  = {Z. Yang, C.H. Yu, K. Guo, and M.J. Buehler},
+    journal = {Journal of the Mechanics and Physics of Solids},
+    year    = {2021},
+    volume  = {154},
+    pages   = {104506},
+    url     = {https://doi.org/10.1016/j.jmps.2021.104506}
+}
+
 ```
