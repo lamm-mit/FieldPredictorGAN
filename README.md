@@ -1,8 +1,8 @@
-# End-to-end Prediction from Composite Geometry to Mechanical Fields
+# End-to-end Prediction from Hierarchical Composite Geometry to Various Mechanical Fields
+
+Yang, Z., Yu, C. H., & Buehler, M. J. (2021). Deep learning model to predict complex stress and strain fields in hierarchical composites. Science Advances, 7(15), eabd7416, 2021, https://www.science.org/doi/10.1126/sciadv.abd7416
 
 Materials-by-design is a paradigm to develop previously unknown high-performance materials. However, finding materials with superior properties is often computationally or experimentally intractable because of the astronomical number of combinations in design space. Here we report an AI-based approach, implemented in a game theory–based conditional generative adversarial neural network (cGAN), to bridge the gap between a material’s microstructure—the design space—and physical performance. Our end-to-end deep learning model predicts physical fields like stress or strain directly from the material microstructure geometry, and reaches an astonishing accuracy not only for predicted field data but also for derivative material property predictions. Furthermore, the proposed approach offers extensibility by predicting complex materials behavior regardless of component shapes, boundary conditions, and geometrical hierarchy, providing perspectives of performing physical modeling and simulations. The method vastly improves the efficiency of evaluating physical properties of hierarchical materials directly from the geometry of its structural makeup.
-
-- Reference: Yang, Z., Yu, C. H., & Buehler, M. J. (2021). Deep learning model to predict complex stress and strain fields in hierarchical composites. Science Advances, 7(15), eabd7416, 2021, https://www.science.org/doi/10.1126/sciadv.abd7416
 
 ![Overall workflow](https://github.com/lamm-mit/FieldPredictorGAN/blob/main/flow_chart.png)
 
@@ -93,3 +93,15 @@ python test.py
 | LE11_crack | square | no | uniaxial tensile | 5% | linear elasticity | 100:10:1 | 32 * 32 | /dataset/CRACK/LE11_1_10_100 | /ckpt/CRACK/LE11_1_10_100 |
 | LE11_crack | square | no | uniaxial tensile | 5% | linear elasticity | 100:10:0.1 | 32 * 32 | /dataset/CRACK/LE11_0.1_10_100 | /ckpt/CRACK/LE11_0.1_10_100 |
 | S11_Field2geo | square | no | uniaxial tensile | 10% | linear elasticity | 4.75 | 32 * 32 | /dataset/FIELD2GEO/S11 | /ckpt/FIELD2GEO/S11 |
+
+```
+@article{YangYuBuehlerScienceAdv_2021,
+    title   = {Deep learning model to predict complex stress and strain fields in hierarchical composites},
+    author  = {Z. Yang, C.H. Yu, and M.J. Buehler},
+    journal = {Science Advances},
+    year    = {2021},
+    volume  = {7},
+    pages   = {eabd7416},
+    url     = {https://www.science.org/doi/10.1126/sciadv.abd7416}
+}
+```
